@@ -23,3 +23,6 @@ Step 6: create and run the gps_start.sh script. It uses /dev/ttyUSB1 as the defa
 
 
 you should now be seeing a "no fix" or "connected" in the desktop information GUI where GPS is under Interfaces.
+
+
+Final note: still looking for a proper way to fire gps_start.sh on boot, since it does need to be fired manually on each reboot for gps to begin and work. After you do steps 1-5 once, you should only have to do step 6 every reboot.
